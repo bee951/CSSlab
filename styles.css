@@ -2,6 +2,25 @@
  body {background-color: #95a895; } 
  /* #a0a0a0 is light gray, #000000 is black, #ffffff is white, #ff0000 is red, #00ff00 is green, #0000ff is blue 
  #ff00ff is pinkish, #00ffff is teal, #ffff00 is yellow*/
- #box1,#box2,#box3,#box4  {text-align: center;}
-
- 
+ h2,p, .readme-wrapper {text-align: center;}
+ /* <a> must comtain href element and the selcetor must be the that of the container for <a> */
+a {
+    text-decoration-line: none; 
+    color: #000000;
+    }
+.boxes {
+    display: block;
+    margin: 2em;
+    border: 3px solid #000000;
+    border-radius: .5pc;
+    width: 20%;
+    }
+a:hover {
+    font-weight: bold;
+    color: #0000ff;
+    cursor: pointer;
+    }
+#box1 {background-color: #546545}
+#box2 {background-color: #274092}
+#box3 {background-color: #456456}
+#box4 {background-color: #456124}
