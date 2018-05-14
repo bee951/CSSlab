@@ -24,3 +24,11 @@ a:hover {
 #box2 {background-color: #274092}
 #box3 {background-color: #456456}
 #box4 {background-color: #456124}
+.image {height: 5rem;
+    width: 5rem;
+    background-color: #105050;
+    display: inline;
+    position: relative;
+    top: 0;
+    float: left;
+    }
