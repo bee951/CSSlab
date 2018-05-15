@@ -20,6 +20,8 @@ a:hover {
     color: #0000ff;
     cursor: pointer;
     }
+/*#box2 {position: realative; bottom: 50rem; left: 30rem;}*/
+/*#box2 {position: absolute; top: 0; right: 0;*/
 #box1 {background-color: #546545}
 #box2 {background-color: #274092}
 #box3 {background-color: #456456}
@@ -32,3 +34,13 @@ a:hover {
     top: 0;
     float: left;
     }
+h1 {color: #95ffff;}
+.h1a {color: #455441;}
+/*the color changes to the class*/
+.h1b {color: #400405;}
+/*class overrides basic selector*/
+#show1 {color: #556675;}
+#show2 {color: #112502;}
+#show3 {font-style: italic; color: #546821;}
+#show4 {font-style: oblique; color: #156542; }
+#show5 {color: #2c5855;}
